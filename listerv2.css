@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p {
+  margin: 10px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.25em;
+}
+.input-box {
+  border: 2px solid #1e1e1e;
+  width: 40%;
+  margin: 20vh 30vw;
+  text-align: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 0 10px 15px #1e1e1e;
+  margin-bottom: 30px;
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px 10px;
+}
+#forDetails {
+  width: 500px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.priceContainer {
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid rgb(48, 44, 39);
+  margin: 10px;
+  padding: 20px 40px;
+  text-align: center;
+}
+.detailsContainer {
+  width: 500px;
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid rgb(48, 44, 39);
+  margin: 10px;
+  padding: 20px 7%;
+  text-align: center;
+}
+.locationContainer {
+  width: 200px;
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid rgb(48, 44, 39);
+  margin: 10px;
+  padding: 20px 50px;
+  text-align: center;
+}
+strong {
+  margin: 10px;
+}
+tr {
+  text-align: center;
+  margin: 20px 20px;
+}
+.property {
+  visibility: hidden;
+  text-align: center;
+  background: white;
+  font-weight: bolder;
+  margin: 10px;
+}
+table {
+  text-align: center;
+}
+td {
+  border: 1px solid #1e1e1e;
+  padding: 10px;
+}
+
+.show-property {
+  visibility: visible;
+}

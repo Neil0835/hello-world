@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="listerv2.css" />
+    <title>Lister v2</title>
+  </head>
+  <body>
+    <section>
+      <div class="input-box">
+        <form class="form">
+          <p>Location</p>
+          <input
+            type="text"
+            id="forLocation"
+            placeholder="Enter Location"
+            required
+          />
+        </form>
+        <form class="form2">
+          <p>Price</p>
+          <input type="text" id="forPrice" placeholder="Enter Price" required />
+        </form>
+        <form class="form3">
+          <p>Details</p>
+          <input
+            type="text"
+            id="forDetails"
+            placeholder="Enter Details"
+            required
+          /><br />
+          <!-- <button type="submit" id="btn btn-hero">submit</button> -->
+        </form>
+      </div>
+      <div class="clrbtn">
+        <button class="clearBtn" type="button">Clear All</button>
+      </div>
+      <div class="container">
+        <div class="locationContainer">
+          <table>
+            <thead>
+              <tr>
+                <strong>Location</strong>
+              </tr>
+            </thead>
+            <tbody class="property show-property">
+              <!-- <td class="item">Baguio</td>  -->
+            </tbody>
+          </table>
+        </div>
+        <div class="priceContainer">
+          <table>
+            <thead>
+              <tr>
+                <strong>Price</strong>
+              </tr>
+            </thead>
+            <tbody class="price show-price">
+              <!-- <td class="item">₱5,000 php per sq.m</td> -->
+            </tbody>
+          </table>
+        </div>
+        <div class="detailsContainer">
+          <table>
+            <thead>
+              <tr>
+                <strong>Details</strong>
+              </tr>
+            </thead>
+            <tbody class="details show-details">
+              <!-- <td class="item">
+                Baguio is located in the north of philippines covered with
+                pinetress and with an elevation of 1,200 above sea level.
+              </td> -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+    <script src="lister2.js"></script>
+  </body>
+</html>
